@@ -26,10 +26,10 @@ input.onButtonPressed(Button.A, function () {
         while (steps < 4) {
             sprite.move(1)
             basic.pause(500)
-            steps ++
+            steps++
         }
         sprite.turn(Direction.Right, 90)
-        loopCounter ++
+        loopCounter++
     }
     // Delete sprite and show a happy icon when done
     sprite.delete()
